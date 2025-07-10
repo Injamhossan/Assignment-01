@@ -272,3 +272,52 @@ section {
   font-size: 18px;
   font-weight: 300;
 }
+
+/* Footer Design */
+
+footer {
+    background-color: #ffffff;
+    padding: 60px 0;
+}
+
+/* Footer text section */
+.footer-text {
+    text-align: center; 
+    font-size: 80px; 
+    font-weight:200; 
+    color: var(--primary-color); 
+    margin-bottom: 20px; 
+}
+
+footer .fot-text {
+    text-align: center; 
+    font-size: 24px; 
+    color: #8987A1; 
+    margin-bottom: 40px; 
+}
+
+
+.footer-link ul {
+    display: flex;
+    justify-content: center; 
+    gap: 30px; 
+    padding: 0; 
+}
+
+.footer-link ul li {
+    list-style: none; 
+    text-decoration: none
+}
+
+.footer-link ul li a {
+    text-decoration: none; 
+    color: #8987A1;
+    font-size: 18px; 
+    font-weight: 300;
+    transition: color 0.3s ease;
+}
+
+
+.footer-link ul li a:hover {
+    color: var(--primary-color)
+}
