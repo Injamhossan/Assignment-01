@@ -70,7 +70,7 @@ ul li {
   padding: 150px 50px;
 }
 
-/* See ti in action section */
+/* See it in action section design */
 section {
     background: #F5F8FF;
 }
@@ -96,7 +96,7 @@ section {
 }
 
 /* Third Section Design */
-section .tr-text {
+.tr-text {
     text-align: center;
     font-size: 38px;
     font-weight: bold;
@@ -206,4 +206,69 @@ section .tr-text {
 .reviewer-info .date {
     margin-left: auto;
     color: #aaa;
+}
+
+
+ /* Form Section Design */
+
+ .form-section {
+  justify-content: space-around;
+  margin: 20px;
+
+ }
+ .form-text h1 {
+  font-size: 97px;
+  margin-top: 200px;
+  margin-left: 200px;
+ }
+ .form-section {
+  display: flex;
+ }
+
+.form-box {
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+.footer-column {
+    width: 50%;
+}
+
+.form-box label {
+  margin-bottom: 10px;
+}
+
+.form-box input[type="text"], .form-box input[type="email"]{
+    height: 30px;
+    border-radius: 10px;
+    background-color: white;
+    display: block;
+    width: 400px;
+    padding: 12px 10px;
+    border: rgb(96, 96, 96);
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.form-box textarea {
+  background-color: white;
+  border: none;
+  margin-right: 15px;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 12px 10px;
+  font-family: inherit;
+  width: 397px;
+}
+
+.btn-form {
+  background-color: var(--primary-color);
+  border: none;
+  padding: 12px 36px;
+  height: 52px;
+  width: 420px;
+  border-radius: 10px;
+  color: white;
+  font-size: 18px;
+  font-weight: 300;
 }
