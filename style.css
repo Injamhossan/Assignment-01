@@ -58,3 +58,27 @@ ul li {
   text-align: center;
   padding: 150px 50px;
 }
+
+/* See ti in action section */
+
+.second-main-div {
+    display: flex;
+    padding: 116px 141px;
+    justify-content: space-around;
+    background-color: #F5F8FF;
+}
+.see-it h3{
+    font-size: 42px;
+    margin: 62px 0px 23px 0px;
+}
+
+.see-it p {
+    font-size: 24px;
+    color: #252432;
+    opacity: 50%;
+}
+.image img {
+    width: 403px;
+    height: 328px;
+    border-radius: 48px;
+}
