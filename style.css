@@ -2,17 +2,27 @@ body, html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  overflow-x: hidden; /* Prevent horizontal scrollbar */
+  overflow-x: hidden;
 }
+
+/* Text import */
 .raleway-normal {
   font-family: "Raleway", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
+
+.inter-normal{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 :root {
   --primary-color: #4E47FF;
   --text-color: #252432;
 }
+/* Header Section design */
 
 header {
   background-image: url(Assets/Hero-bg.png);
@@ -31,6 +41,7 @@ nav {
   padding: 40px 150px;
 }
 
+/* Button design */
 .btn {
   background-color: var(--primary-color);
   border: none;
@@ -60,12 +71,13 @@ ul li {
 }
 
 /* See ti in action section */
-
+section {
+    background: #F5F8FF;
+}
 .second-main-div {
     display: flex;
     padding: 116px 141px;
     justify-content: space-around;
-    background-color: #F5F8FF;
 }
 .see-it h3{
     font-size: 42px;
@@ -81,4 +93,117 @@ ul li {
     width: 403px;
     height: 328px;
     border-radius: 48px;
+}
+
+/* Third Section Design */
+section .tr-text {
+    text-align: center;
+    font-size: 38px;
+    font-weight: bold;
+    margin-bottom: 40px;
+}
+.third-main-div {
+    height: 306px;
+    width: 1140px;
+    background-color: rgba(78, 71, 255, 0.1);
+    align-items: center;
+    border-radius: 24px;
+    margin: 0 auto;
+    padding: 50px 142px ;
+}
+
+.tr-main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.tr-main h2 {
+    font-size: 80px;
+    text-align: center;
+    margin-bottom: 0px;
+    color: var(--primary-color);
+    margin-top: 0px;
+}
+
+.tr-main p {
+    font-size: 20px;
+    text-align: center;
+    color: #252432;
+    opacity: 50%;
+    margin-top: 0;
+}
+
+/* Rating Section Design */
+
+
+.for-text {
+    font-size: 42px;
+    text-align: center;
+    margin-bottom: 40px;
+    font-weight: bold;
+    padding-top: 137px;
+}
+
+.reviews-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    max-width: 1200px; 
+}
+
+.rating-box {
+    width: 366px;
+    background-color: white;
+    border-radius: 14px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    box-sizing: border-box;
+    margin-bottom: 30px;
+}
+
+.stars {
+    display: flex;
+    gap: 5px;
+}
+
+.rating-box img {
+    height: 20px;
+    width: 20px;
+}
+
+.rating-under {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: #333;
+}
+
+.rating-box p {
+    font-size: 14px;
+    color: #555;
+    margin-top: 8px;
+}
+
+.reviewer-info {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #888;
+}
+
+.reviewer-info img {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+}
+
+.reviewer-info .date {
+    margin-left: auto;
+    color: #aaa;
 }
