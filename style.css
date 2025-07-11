@@ -271,6 +271,7 @@ section {
   color: white;
   font-size: 18px;
   font-weight: 300;
+  margin-top: 5px;
 }
 
 /* Footer Design */
@@ -280,7 +281,6 @@ footer {
     padding: 60px 0;
 }
 
-/* Footer text section */
 .footer-text {
     text-align: center; 
     font-size: 80px; 
@@ -320,4 +320,7 @@ footer .fot-text {
 
 .footer-link ul li a:hover {
     color: var(--primary-color)
+}
+.message{
+    margin-bottom: 5px;
 }
