@@ -50,6 +50,10 @@ nav {
   color: white;
   font-size: 18px;
   font-weight: 300;
+  
+}
+.btn:hover{
+    background-color: rgb(109, 98, 204);
 }
 
 .nav-title {
@@ -273,6 +277,9 @@ section {
   font-weight: 300;
   margin-top: 5px;
 }
+.btn-form:hover{
+    background-color: rgb(109, 98, 204);
+}
 
 /* Footer Design */
 
@@ -320,7 +327,4 @@ footer .fot-text {
 
 .footer-link ul li a:hover {
     color: var(--primary-color)
-}
-.message{
-    margin-bottom: 5px;
 }
